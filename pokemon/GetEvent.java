@@ -40,7 +40,7 @@
 /*    */             } else {
 /* 41 */               ((Pokemon)Objects.<Pokemon>requireNonNull(Pixelmon.storageManager.getParty(player.getUniqueId()).get(x))).setNickname(args[3].replace("&", "§"));
 /* 42 */               if (commandSender instanceof CommandExecutor) {
-/* 43 */                 commandSender.sendMessage("&ePokeColorNick>>>&a你成功为精灵设置了昵称 !".replace("&", "§"));
+/* 43 */                 commandSender.sendMessage("&ePokeColorNick>>>&a你成功为精灵设置了昵称!".replace("&", "§"));
 /*    */               } else {
 /* 45 */                 commandSender.sendMessage("&ePokeColorNick>>>>&a你成功给玩家&7 ".replace("&", "§") + player.getName() + " &a修改精灵昵称为&f ".replace("&", "§") + args[3].replace("&", "§"));
 /*    */               } 

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="[精灵彩色昵称]PokeColorNIck">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="[精灵彩色昵称]PokeColorNIck.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="module-output" name="PokeColorNick" />
+    </root>
+  </artifact>
+</component>
